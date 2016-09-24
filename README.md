@@ -1,3 +1,7 @@
+# 功能
+
+目前只有网页扫码支付
+
 # 安装
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
