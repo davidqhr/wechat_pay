@@ -14,7 +14,7 @@ defmodule WechatPay.Mixfile do
   #
   # Type "mix help compile.app" for more information
   def application do
-    [applications: [:logger, :httpotion]]
+    [applications: [:logger, :xmerl, :httpotion]]
   end
 
   # Dependencies can be Hex packages:
