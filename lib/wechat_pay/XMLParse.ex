@@ -1,4 +1,4 @@
-defmodule XMLParser do
+defmodule WechatPay.XMLParser do
   require Record
 
   Record.defrecord :xmlElement, Record.extract(:xmlElement, from_lib: "xmerl/include/xmerl.hrl")

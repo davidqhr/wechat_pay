@@ -45,7 +45,7 @@ defmodule WechatPay do
 
     body = res.body
 
-    XMLParser.from_string(body)
+    WechatPay.XMLParser.from_string(body)
   end
 
   def sign(params) do
